@@ -1,0 +1,23 @@
+Configuración
+
+py -m venv venv
+
+Seleccionar enviroment con F1 (venv creado)
+
+pip install django
+
+django-admin startproject [Nombre] .
+
+python manage.py runserver
+
+Servicios
+
+python manage.py startapp [Nombre]
+
+Carpeta Principal -> PruebaConcepto>settings> Installed apps
+
+App > Views -> Se genera el código
+
+Luego en Carpeta principal urls, se agrega la url importando la app y la función
+
+Crear carpeta con Templates
